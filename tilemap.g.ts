@@ -4,6 +4,7 @@ namespace myTiles {
     export const transparency16 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile1 = image.ofBuffer(hex``);
+    export const tile22 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -33,7 +34,7 @@ namespace myTiles {
 ................................................
 ................................................
 ................................................
-`, [myTiles.transparency16,sprites.swamp.swampTile7,myTiles.tile1], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.swamp.swampTile7,myTiles.tile1,myTiles.tile22], TileScale.Sixteen);
         }
         return null;
     })
@@ -42,7 +43,9 @@ namespace myTiles {
         switch(helpers.stringTrim(name)) {
             case "transparency16":return transparency16;
             case "myTile":
-            case "tile1":return tile1;
+            case "tile1": return tile1;
+            caes "ring":
+            case "tile22":return tile22;
         }
         return null;
     })
