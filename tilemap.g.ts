@@ -43,8 +43,9 @@ namespace myTiles {
         switch(helpers.stringTrim(name)) {
             case "transparency16":return transparency16;
             case "myTile":
-            case "tile1": return tile1; 
-            case "ring":
+            case "tile1": return tile1;
+            // esto si que es un cambio
+            case "ring2":
             case "tile22":return tile22;
         }
         return null;
