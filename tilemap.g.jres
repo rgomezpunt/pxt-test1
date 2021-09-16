@@ -10,6 +10,12 @@
         "tilemapTile": true,
         "displayName": "myTile"
     },
+    "tile22": {
+        "data": "hwQQABAAAAAAAODu7g4AAADgXlVV5Q4AAF5VVVVV5QDg3eXOzFxUDuBN7gAAzEQOXuQOAADATMRe5QAAAABcxF7lAAAAAFzEW+UAAAAAXMRb5QAAAABcxFvlDgAA4FLEsNTuAAAuUgywRO3u7iJVDABM1E1EVMUAALBLRFTFDAAAAFBVVQUAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "ring"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
@@ -17,7 +23,8 @@
         "tileset": [
             "myTiles.transparency16",
             "sprites.swamp.swampTile7",
-            "myTiles.tile1"
+            "myTiles.tile1",
+            "myTiles.tile22"
         ],
         "displayName": "level1"
     },
