@@ -45,7 +45,7 @@ namespace myTiles {
             case "myTile":
             case "tile1": return tile1;
             // esto si que es un cambio
-            case "ring2":
+            case "ring":
             case "tile22":return tile22;
         }
         return null;
